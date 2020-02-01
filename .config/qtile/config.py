@@ -147,7 +147,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        top=bar.Bar(
+        bottom=bar.Bar(
             [
                 widget.GroupBox(
                     active=colors['active'],
@@ -169,7 +169,7 @@ screens = [
                     foreground=colors['fg2']
                 ),
             ],
-            28,
+            32,
             background=colors['bg']
         ),
     ),
